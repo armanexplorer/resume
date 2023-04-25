@@ -2,6 +2,16 @@
 title: "Arman Mazloumzadeh's Resume"
 description: "+5YRS Backend Web Developer / Software Engineer using Django / Python"
 
+plugins:
+  - jekyll-seo-tag
+
+defaults:
+  - 
+    space:
+      path: ""
+    values:
+      image: /images/armanexplorer-avatar.png
+
 # Build settings
 markdown: kramdown
 sass:
