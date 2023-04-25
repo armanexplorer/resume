@@ -5,7 +5,9 @@
 
 // Fixed-width, centered column for site content.
 .container {
-  width: $container-width;
+  display: flex;
+  justify-content: space-between;
+  // width: $container-width;
   margin-right: auto;
   margin-left: auto;
   @include clearfix;
@@ -24,9 +26,15 @@
 
 // Base class for every column (requires a column width from below)
 .column {
+  flex: 1;
+  // margin: 10px;
+  // padding: 20px;
+  // background-color: #f0f0f0;
+  // border: 1px solid #ccc;
+  // box-sizing: border-box;
   float: left;
-  padding-right: $grid-gutter;
-  padding-left: $grid-gutter;
+  // padding-right: $grid-gutter;
+  // padding-left: $grid-gutter;
 }
 
 // Column widths

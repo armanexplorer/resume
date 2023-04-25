@@ -5,7 +5,7 @@
 
   <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
 
-    <div class="wrapper" itemscope itemtype="http://schema.org/Person">
+    <div class="wrapper" itemscope itemtype="http://schema.org/Person" align="justify">
       <meta itemprop="telephone" content="{{ site.resume_contact_telephone }}"/>
       <meta itemprop="address" content="{{ site.resume_contact_address }}"/>
 
@@ -122,30 +122,22 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Skills</h2>
+          <h2>Technical Skills</h2>
         </header>
-        <!-- {% for skill in site.data.skills %} -->
-        <div class="container">
-          <div class="column">Column 1</div>
-          <div class="column">Column 2</div>
-          <div class="column">Column 3</div>
-        </div>
-        <div class="container">
-          <div class="column">Column 1</div>
-          <div class="column">Column 2</div>
-          <div class="column">Column 3</div>
-        </div>
-        <div class="container">
-          <div class="column">Column 1</div>
-          <div class="column">Column 2</div>
-          <div class="column">Column 3</div>
-        </div>
-        <div class="container">
-          <div class="column">Column 1</div>
-          <div class="column">Column 2</div>
-          <div class="column">Column 3</div>
-        </div>
-        <!-- {% endfor %} -->
+        {% assign skill_length = site.data.skills | size %}
+        {% assign rows_num = skill_length | divided_by: 3 %}
+        {% assign end_index = rows_num | minus: 1 %}
+        {% for i in (0..end_index) %}
+          {% assign ind0 = i | times: 3 %}
+          {% assign ind1 = ind0 | plus: 1 %}
+          {% assign ind2 = ind0 | plus: 2 %}
+          <ui class="container">
+            <li class="column">{{ site.data.skills[ind0].skill }}</li>
+            <li class="column">{{ site.data.skills[ind1].skill }}</li>
+            <li class="column">{{ site.data.skills[ind2].skill }}</li>
+          </ui>
+        {% endfor %}
+
         <!-- {% for skill in site.data.skills %}
         <div class="resume-item">
           <h4 class="resume-item-details">{{ skill.skill }}</h4>
