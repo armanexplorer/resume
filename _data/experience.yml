@@ -1,10 +1,9 @@
 # Jobs
 # VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
-
+- company: Freelance
+  position: Backend Web Engineer / Team Lead
+  duration: Sep 2021 &mdash; Present
+  summary: Organizing and engineering software projects for Sangyab, the most popular company in stone industries of the country, and Parsdream, which currently has the largest image repository in Iran <ul class="resume-item-list"><li>Spearheading development of the Parsimages image repository website, providing a response time of 2 seconds in searching among 1 million images</li><li>Managed re-engineering project of Sangyab website; improved response time from 10-20 to 1-3 seconds, led to increasing Google search impression of related queries by up to 150% in some cases</li><li>Designed an automation bot on the most widely used messenger in Iran (Telegram) to make the process of ordering and delivering images real-time; saved 70% of support costs only in the first month</li><li>Expedited development of projects by establishing staging and production development pipelines (CI/CD), publishing changes in less than 5 minutes without manual intervention</li></ul>
 # Director of Digital Stratgy
 - company: United Nations Human Rights Council
   position: Director of Digital Strategy
