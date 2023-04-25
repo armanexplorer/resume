@@ -10,7 +10,7 @@ defaults:
     space:
       path: ""
     values:
-      image: /images/armanexplorer-avatar.png
+      image: /images/armanexplorer.png
 
 # Build settings
 markdown: kramdown
