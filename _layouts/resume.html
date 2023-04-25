@@ -124,12 +124,34 @@
         <header class="section-header">
           <h2>Skills</h2>
         </header>
-        {% for skill in site.data.skills %}
+        <!-- {% for skill in site.data.skills %} -->
+        <div class="container">
+          <div class="column">Column 1</div>
+          <div class="column">Column 2</div>
+          <div class="column">Column 3</div>
+        </div>
+        <div class="container">
+          <div class="column">Column 1</div>
+          <div class="column">Column 2</div>
+          <div class="column">Column 3</div>
+        </div>
+        <div class="container">
+          <div class="column">Column 1</div>
+          <div class="column">Column 2</div>
+          <div class="column">Column 3</div>
+        </div>
+        <div class="container">
+          <div class="column">Column 1</div>
+          <div class="column">Column 2</div>
+          <div class="column">Column 3</div>
+        </div>
+        <!-- {% endfor %} -->
+        <!-- {% for skill in site.data.skills %}
         <div class="resume-item">
           <h4 class="resume-item-details">{{ skill.skill }}</h4>
           <p class="resume-item-copy">{{ skill.description }}</p>
         </div>
-        {% endfor %}
+        {% endfor %} -->
 
       </section>
       <!-- end Skills -->
