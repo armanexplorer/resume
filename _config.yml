@@ -1,6 +1,6 @@
 # Site settings
-title: "Arman Mazloumzadeh's Resume"
-description: "+5YRS Backend Web Developer / Software Engineer using Django / Python"
+title: "Arman Mazloumzadeh Resume"
+description: "+5YRS Senior Software Engineer / Django / Python"
 
 plugins:
   - jekyll-seo-tag
@@ -21,7 +21,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Arman Mazloumzadeh"
-resume_title:                   "Backend Web Developer | Software Engineer"
+resume_title:                   "Senior Software Engineer"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "armanexplorer@gmai.com"
@@ -30,16 +30,24 @@ resume_contact_email:           "armanexplorer@gmai.com"
 resume_contact_telephone:       "+98 910-510-7835"
 resume_contact_address:         "Tehran, Iran"
 
-resume_header_contact_info:     "Tehran, Iran • +98 910-510-7835 • armanexplorer@gmai.com • linkedin.com/in/armanexplorer"
+resume_header_contact_info: |
+  <a href="tel:+989105107835">+98 910-510-7835</a> 
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp•&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  <a href="https://linkedin.com/in/armanexplorer">linkedin.com/in/armanexplorer</a> 
+  &nbsp&nbsp&nbsp•&nbsp&nbsp&nbsp
+  <a href="mailto:armanexplorer@gmail.com">armanexplorer@gmail.com</a>
 display_header_contact_info:    "true"
 
-resume_header_intro: "<p>Software Engineer with 5 years of experience delivering backend systems in Python and dedicated to Django web framework, with solid understanding of frontend programming. Led overhauling and maintaining key web applications in different domains, attained 200% improvement in response time in a case with 50,000 requests per month. Having an agile approach backed by strong educational background, proposes neat solutions to tackle Software Engineering challenges.</p>"
+resume_header_intro: |
+  <p>
+  Senior Software Engineer with 5+ years of experience delivering backend systems in Python and dedicated to Django web framework, with solid understanding of frontend programming. Led overhauling and maintaining key web applications in different domains, attained 200% improvement in response time in a case with 50,000 requests per month. Having an agile approach backed by strong educational background, proposes neat solutions to tackle Software Engineering challenges.
+  </p>
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
 # or remove the resume_looking_for_work option entirely
 # to leave blank
-# resume_looking_for_work:        "yes"
+resume_looking_for_work:        "yes"
 
 # Decide which sections to use
 # comment out to hide
@@ -61,7 +69,8 @@ resume_social_links:
   # resume_facebook_url:          "insert Facebook URL here"
   resume_linkedin_url:          "https://www.linkedin.com/in/armanexplorer"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "https://armanexplorer.com"
+  # resume_website_url:           "https://armanexplorer.com"
+  resume_pdf_url:            "Arman-Mazloumzadeh-Resume.pdf"
   # resume_medium_url:            "https://medium.com/@jglovier"
 resume_print_social_links:      true
 

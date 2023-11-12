@@ -1,16 +1,53 @@
 # Jobs
 # VP of Global Communications
-- company: Freelance
-  position: Backend Web Engineer / Team Lead
-  duration: Sep 2021 &mdash; Present
-  summary: Organizing and engineering software projects for Sangyab, the most popular company in stone industries of the country, and Parsdream, which currently has the largest image repository in Iran <ul class="resume-item-list"><li>Spearheading development of the Parsimages image repository website, providing a response time of 2 seconds in searching among 1 million images</li><li>Managed re-engineering project of Sangyab website; improved response time from 10-20 to 1-3 seconds, led to increasing Google search impression of related queries by up to 150% in some cases</li><li>Designed an automation bot on the most widely used messenger in Iran (Telegram) to make the process of ordering and delivering images real-time; saved 70% of support costs only in the first month</li><li>Expedited development of projects by establishing staging and production development pipelines (CI/CD), publishing changes in less than 5 minutes without manual intervention</li></ul>
+- company: Aone Capital Management
+  position: Technical Team Lead
+  duration: Apr 2023 &mdash; Present
+  summary: |
+    Oversewing <a href="https://metriland.ir">Metriland</a> and <a href="https://propision.com">Propision</a> development as two high-tech web applications, keeping them scalable by making use of microservice architecture and CaaS 
+    <ul class="resume-item-list"><li>
+    Maintaining staging and production environments and provisioning development tools like GitLab and Jira, led to the increase in development speed by up to 50% and 45% reduction in production bugs
+    </li><li>
+    Employing Scrum methodology to meet product goals by breaking down complex projects into
+    manageable tasks, prioritizing work items, and ensuring timely delivery of high-quality products
+    </li><li>
+    Conducted multiple case interviews to evaluate candidates' qualifications, work experience, and industry knowledge, resulting in the successful hiring who met the organization's goals
+    </li></ul>
+
+- company: Parsdream & Sangyab
+  position: Software Engineer
+  duration: Sep 2021 &mdash; Mar 2023
+  summary: |
+    Oversewing Metriland and Propision development as two high-tech web applications, keeping them scalable by making use of microservice architecture and CaaS 
+    <ul class="resume-item-list"><li>
+    Spearheaded <a href="https://parsimages.com">Parsimages</a> website development, designed and implemented backend services to achieve a search response time of 1 second despite having a database of over 1 million images
+    </li><li>
+    Overhauled the <a href="https://sangyab.com">Sangyab</a> website to optimize home page load time from more than 6 seconds to less than 2 seconds, resulting in an upsurge of Google search impressions by up to 150%
+    </li><li>
+    Created a <a href="https://t.me/PDStockbot">Telegram Image Downloader</a> bot to facilitate real-time ordering and delivery of images,
+    resulting in a 70% reduction in support costs within the first month
+    </li><li>
+    Established staging and production (CI/CD) pipelines, enabling the use of CD Lean methodology to ship frequent increments daily
+    </li></ul>
 
 - company: Novin Pardazan Arax
-  position: Software Engineer / Team Lead
+  position: Software Engineer
   duration: Oct 2020 &mdash; Aug 2021
-  summary: Co-founded Arax company to create bespoke websites for businesses; launched 5 websites using Django and React/Next.js in less than 6 months; coached 3 interns developing up to 50% of front-end development tasks <ul class="resume-item-list"><li>Managed software workflows using Scrum methodology, leading to self-organized teams with constant collaboration with client representatives</li><li>Led backend team and delivered CI/CD pipelines as a backbone of website development, streamlined development process for teams, providing regression testing to reduce defects and risks</li></ul>
+  summary: |
+    Co-founded Arax company to create bespoke websites for businesses; launched 5 websites using Django and React/Next.js in less than 6 months; coached 3 interns developing up to 50% of front-end development tasks 
+    <ul class="resume-item-list"><li>
+    Managed software workflows using Scrum methodology, leading to self-organized teams with constant collaboration with client representatives
+    </li><li>
+    Led backend team and delivered CI/CD pipelines as a backbone of website development, streamlined development process for teams, providing regression testing to reduce defects and risks
+    </li></ul>
 
 - company: Safir Ertebatat Hezareh Sevom
   position: Web Developer
   duration: Mar 2020  &mdash; Sep 2020
-  summary: Delivered backend development of online shopping websites in collaboration with front-end developers and product owners, resulting in performant websites and delighted clients <ul class="resume-item-list"><li>Maintained a WordPress website to establish an online shopping market for KOTON, one of the most famous clothing brands; built a plugin for authentication by SMS which reduced sign-up drops by 30%</li><li>Promoted after three months, added to the prime presenters in demo meetings</li></ul>
+  summary: |
+    Delivered backend development of online shopping websites in collaboration with front-end developers and product owners, resulting in performant websites and delighted clients 
+    <ul class="resume-item-list"><li>
+    Maintained a WordPress website to establish an online shopping market for KOTON, one of the most famous clothing brands; built a plugin for authentication by SMS which reduced sign-up drops by 30%
+    </li><li>
+    Promoted after three months, added to the prime presenters in demo meetings
+    </li></ul>
