@@ -1,13 +1,13 @@
 # Skills
-- skill: Python (Django)
-- skill: PostgreSQL
-- skill: Redis / Celery
-- skill: SQL / SQLite / MySQL
-- skill: Docker
-- skill: Git
-- skill: CI/CD (GitHub Actions)
 - skill: REST APIs
-- skill: Linux (CentOS, Debian)
-- skill: Bash Scripting
-- skill: Agile Methodologies
-- skill: Azure / Jira
+- skill: Python
+- skill: Django
+- skill: PostgreSQL
+- skill: MySQL
+- skill: Git
+- skill: Docker
+- skill: GitLab CI
+- skill: GitHub Actions
+- skill: Cloud
+- skill: Redis
+- skill: Celery
