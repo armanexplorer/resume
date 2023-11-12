@@ -1,13 +1,12 @@
 # Skills
+- skill: Django
+- skill: Postgres
 - skill: REST APIs
 - skill: Python
-- skill: Django
-- skill: PostgreSQL
 - skill: MySQL
+- skill: Redis
+- skill: Celery
+- skill: JS/PHP
 - skill: Git
 - skill: Docker
 - skill: GitLab CI
-- skill: GitHub Actions
-- skill: Cloud
-- skill: Redis
-- skill: Celery
