@@ -9,7 +9,7 @@ defaults:
   - space:
       path: ""
     values:
-      image: /images/armanexplorer.png
+      image: /images/resume-preview.jpg # used for og:image tags
 
 # Build settings
 markdown: kramdown
