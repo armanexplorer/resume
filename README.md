@@ -1,3 +1,3 @@
 # Arman Mazloumzadeh's Resume
 
-![img](images/screenshot.png)
+![img](images/slim-preview.png)

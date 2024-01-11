@@ -4,7 +4,7 @@
   position: Technical Team Lead
   duration: Apr 2023 &mdash; Present
   summary: |
-    Oversewing <a href="https://metriland.ir">Metriland</a> and <a href="https://propision.com">Propision</a> development as two high-tech web applications, keeping them scalable by making use of microservice architecture and CaaS 
+    Oversewing <a href="https://tokenision.com">Tokenision</a> and <a href="https://propision.com">Propision</a> development as two high-tech web applications, keeping them scalable by making use of microservice architecture and CaaS 
     <ul class="resume-item-list"><li>
     Maintaining staging and production environments and provisioning development tools like GitLab and Jira, led to the increase in development speed by up to 50% and 45% reduction in production bugs
     </li><li>
@@ -15,10 +15,10 @@
     </li></ul>
 
 - company: Parsdream & Sangyab
-  position: Software Engineer
+  position: Technical Team Lead
   duration: Sep 2021 &mdash; Mar 2023
   summary: |
-    Oversewing Metriland and Propision development as two high-tech web applications, keeping them scalable by making use of microservice architecture and CaaS 
+    Oversewing Tokenision and Propision development as two high-tech web applications, keeping them scalable by making use of microservice architecture and CaaS 
     <ul class="resume-item-list"><li>
     Spearheaded <a href="https://parsimages.com">Parsimages</a> website development, designed and implemented backend services to achieve a search response time of 1 second despite having a database of over 1 million images
     </li><li>
@@ -32,21 +32,14 @@
 
 - company: Novin Pardazan Arax
   position: Software Engineer
-  duration: Oct 2020 &mdash; Aug 2021
+  duration: Mar 2020 &mdash; Aug 2021
   summary: |
     Co-founded Arax company to create bespoke websites for businesses; launched 5 websites using Django and React/Next.js in less than 6 months; coached 3 interns developing up to 50% of front-end development tasks 
     <ul class="resume-item-list"><li>
     Managed software workflows using Scrum methodology, leading to self-organized teams with constant collaboration with client representatives
     </li><li>
     Led backend team and delivered CI/CD pipelines as a backbone of website development, streamlined development process for teams, providing regression testing to reduce defects and risks
-    </li></ul>
-
-- company: Safir Ertebatat Hezareh Sevom
-  position: Web Developer
-  duration: Mar 2020  &mdash; Sep 2020
-  summary: |
-    Delivered backend development of online shopping websites in collaboration with front-end developers and product owners, resulting in performant websites and delighted clients 
-    <ul class="resume-item-list"><li>
+    </li><li>
     Maintained a WordPress website to establish an online shopping market for KOTON, one of the most famous clothing brands; built a plugin for authentication by SMS which reduced sign-up drops by 30%
     </li><li>
     Promoted after three months, added to the prime presenters in demo meetings
