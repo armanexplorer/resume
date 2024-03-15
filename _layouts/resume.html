@@ -53,7 +53,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Experience</h2>
+          <h2>WORK EXPERIENCE</h2>
         </header>
 
         {% for job in site.data.experience %}
@@ -68,12 +68,43 @@
       <!-- end Experience -->
       {% endif %}
 
+      {% if site.resume_section_skills %}
+      <!-- begin Skills -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>SKILLS</h2>
+        </header>
+        <!-- {% assign skill_length = site.data.skills | size %}
+        {% assign rows_num = skill_length | divided_by: 3 %}
+        {% assign end_index = rows_num | minus: 1 %}
+        {% for i in (0..end_index) %}
+          {% assign ind0 = i | times: 3 %}
+          {% assign ind1 = ind0 | plus: 1 %}
+          {% assign ind2 = ind0 | plus: 2 %}
+          <ui class="container">
+            <li class="column">{{ site.data.skills[ind0].skill }}</li>
+            <li class="column">{{ site.data.skills[ind1].skill }}</li>
+            <li class="column">{{ site.data.skills[ind2].skill }}</li>
+          </ui>
+        {% endfor %} -->
+        {% assign skill_length = site.data.skills | size %}
+        {% for skill in site.data.skills %}
+        <div class="resume-item" style="display: inline">
+          <b>{{ skill.skill }}</b>&nbsp;
+          <!-- <p class="resume-item-copy">{{ skill.description }}</p> -->
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Skills -->
+      {% endif %}
 
       {% if site.resume_section_education %}
       <!-- begin Education -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Education</h2>
+          <h2>EDUCATION</h2>
         </header>
 
         {% for education in site.data.education %}
@@ -115,38 +146,6 @@
 
       </section>
       <!-- end Projects -->
-      {% endif %}
-
-      {% if site.resume_section_skills %}
-      <!-- begin Skills -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Technical Skills</h2>
-        </header>
-        {% assign skill_length = site.data.skills | size %}
-        {% assign rows_num = skill_length | divided_by: 3 %}
-        {% assign end_index = rows_num | minus: 1 %}
-        {% for i in (0..end_index) %}
-          {% assign ind0 = i | times: 3 %}
-          {% assign ind1 = ind0 | plus: 1 %}
-          {% assign ind2 = ind0 | plus: 2 %}
-          <ui class="container">
-            <li class="column">{{ site.data.skills[ind0].skill }}</li>
-            <li class="column">{{ site.data.skills[ind1].skill }}</li>
-            <li class="column">{{ site.data.skills[ind2].skill }}</li>
-          </ui>
-        {% endfor %}
-
-        <!-- {% for skill in site.data.skills %}
-        <div class="resume-item">
-          <h4 class="resume-item-details">{{ skill.skill }}</h4>
-          <p class="resume-item-copy">{{ skill.description }}</p>
-        </div>
-        {% endfor %} -->
-
-      </section>
-      <!-- end Skills -->
       {% endif %}
 
       {% if site.resume_section_recognition %}

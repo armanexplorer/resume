@@ -1,46 +1,55 @@
 # Jobs
 # VP of Global Communications
-- company: Aone Capital Management
-  position: Technical Team Lead
+- company: Payvand Business Network
+  position: Senior Software Engineer
   duration: Apr 2023 &mdash; Present
   summary: |
-    Oversewing <a href="https://tokenision.com">Tokenision</a> and <a href="https://propision.com">Propision</a> development as two high-tech web applications, keeping them scalable by making use of microservice architecture and CaaS 
+    Leading <a href="https://tokenision.com">Tokenision</a> web application delivery for 
+    real estate tokenizing in Canada. 
     <ul class="resume-item-list"><li>
-    Maintaining staging and production environments and provisioning development tools like GitLab and Jira, led to the increase in development speed by up to 50% and 45% reduction in production bugs
+    Reduced cycle time by 25% over 2 years by implementing CI/CD pipelines
     </li><li>
-    Employing Scrum methodology to meet product goals by breaking down complex projects into
-    manageable tasks, prioritizing work items, and ensuring timely delivery of high-quality products
+    Delivered GitLab and Jira software for enhanced code versioning and project management
     </li><li>
-    Conducted multiple case interviews to evaluate candidates' qualifications, work experience, and industry knowledge, resulting in the successful hiring who met the organization's goals
+    Reduced production bugs by 20% over 3 months through automated tests and TDD
+    </li><li>
+    Spearheaded development of two scalable web applications, released on time and within budget
+    </li><li>
+    Django, Microservice architecture, CI/CD (GitLab CI), Docker, Kubernetes, NGINX, Scrum
     </li></ul>
 
 - company: Parsdream & Sangyab
-  position: Technical Team Lead
+  position: Software Engineer
   duration: Sep 2021 &mdash; Mar 2023
   summary: |
-    Oversewing Tokenision and Propision development as two high-tech web applications, keeping them scalable by making use of microservice architecture and CaaS 
+    Engineered software projects for Sangyab, the leading stone marketplace
+    in the country, and Parsdream startup, which at the moment boasts the
+    largest image library in the country.
     <ul class="resume-item-list"><li>
-    Spearheaded <a href="https://parsimages.com">Parsimages</a> website development, designed and implemented backend services to achieve a search response time of 1 second despite having a database of over 1 million images
+    Designed image search engine with less than 1 second in a database of over 1 million images
     </li><li>
-    Overhauled the <a href="https://sangyab.com">Sangyab</a> website to optimize home page load time from more than 6 seconds to less than 2 seconds, resulting in an upsurge of Google search impressions by up to 150%
+    Automated online image delivery, resulting in a 70% reduction in support costs within the first month
     </li><li>
-    Created a <a href="https://t.me/PDStockbot">Telegram Image Downloader</a> bot to facilitate real-time ordering and delivery of images,
-    resulting in a 70% reduction in support costs within the first month
+    Established staging and production CI/CD pipelines, reduced cycle time up to 40% over 1 month
     </li><li>
-    Established staging and production (CI/CD) pipelines, enabling the use of CD Lean methodology to ship frequent increments daily
+    Led web application re-engineering to reduce load time from 6 seconds to less than 2, resulting
+    in an upsurge of Google search impressions by up to 150% in 2 months
+    </li><li>
+    Django, PostgreSQL, Redis, RabbitMQ, CI/CD (GitHub Actions), NGINX, Scrum
     </li></ul>
 
 - company: Novin Pardazan Arax
   position: Software Engineer
   duration: Mar 2020 &mdash; Aug 2021
   summary: |
-    Co-founded Arax company to create bespoke websites for businesses; launched 5 websites using Django and React/Next.js in less than 6 months; coached 3 interns developing up to 50% of front-end development tasks 
+    Co-founded Arax company to create bespoke web applications; launched 3 websites
+    using Django and React/Next.js in 6 months.
     <ul class="resume-item-list"><li>
-    Managed software workflows using Scrum methodology, leading to self-organized teams with constant collaboration with client representatives
+    Delivered CI/CD pipelines for regression testing, resulting in a reduction of production bugs by up to 40%
     </li><li>
-    Led backend team and delivered CI/CD pipelines as a backbone of website development, streamlined development process for teams, providing regression testing to reduce defects and risks
+    Reduced sign-up drop-offs by 25% by developing an SMS plugin to add 2FA
     </li><li>
-    Maintained a WordPress website to establish an online shopping market for KOTON, one of the most famous clothing brands; built a plugin for authentication by SMS which reduced sign-up drops by 30%
+    Liaised with C-level leaders across multiple organizations
     </li><li>
-    Promoted after three months, added to the prime presenters in demo meetings
+    Django, WordPress, CI/CD (GitHub Actions), NGINX, Scrum
     </li></ul>
