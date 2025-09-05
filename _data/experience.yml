@@ -1,55 +1,53 @@
-# Jobs
-# VP of Global Communications
-- company: Payvand Business Network
-  position: Senior Software Engineer
-  duration: Apr 2023 &mdash; Present
-  summary: |
-    Leading <a href="https://tokenision.com">Tokenision</a> web application delivery for 
-    real estate tokenizing in Canada. 
-    <ul class="resume-item-list"><li>
-    Reduced cycle time by 25% over 2 years by implementing CI/CD pipelines
-    </li><li>
-    Delivered GitLab and Jira software for enhanced code versioning and project management
-    </li><li>
-    Reduced production bugs by 20% over 3 months through automated tests and TDD
-    </li><li>
-    Spearheaded development of two scalable web applications, released on time and within budget
-    </li><li>
-    Django, Microservice architecture, CI/CD (GitLab CI), Docker, Kubernetes, NGINX, Scrum
-    </li></ul>
 
-- company: Parsdream & Sangyab
-  position: Software Engineer
-  duration: Sep 2021 &mdash; Mar 2023
+# Jobs
+- company: Partnerz
+  position: Senior Backend Engineer (Shopify apps)
+  duration: Dec 2024 - Present
+  location: Remote, UAE
   summary: |
-    Engineered software projects for Sangyab, the leading stone marketplace
-    in the country, and Parsdream startup, which at the moment boasts the
-    largest image library in the country.
-    <ul class="resume-item-list"><li>
-    Designed image search engine with less than 1 second in a database of over 1 million images
-    </li><li>
-    Automated online image delivery, resulting in a 70% reduction in support costs within the first month
-    </li><li>
-    Established staging and production CI/CD pipelines, reduced cycle time up to 40% over 1 month
-    </li><li>
-    Led web application re-engineering to reduce load time from 6 seconds to less than 2, resulting
-    in an upsurge of Google search impressions by up to 150% in 2 months
-    </li><li>
-    Django, PostgreSQL, Redis, RabbitMQ, CI/CD (GitHub Actions), NGINX, Scrum
-    </li></ul>
+    <ul class="resume-item-list">
+      <li>Shipped bundling features including Fixed Bundle and Mystery Box; adopted by ~10% of users and generating $1000+ MRR per month.</li>
+      <li>Improved onboarding flow and core app surfaces; made Plans Selection responsive, increasing reliability and UX consistency.</li>
+      <li>Reduced CI test runtime from 8 to 6 minutes via optimizing test tools; shortened developer feedback loops.</li>
+      <li>Operated as a full-stack contributor across backend and frontend, accelerating feature delivery more than 3 times.</li>
+      <li>Investigated and resolved merchant issues with Google Logs and Sentry, improving support turnaround.</li>
+      <li>Migrated app storage to Google Cloud Storage, configuring bucket permissions and upgrading to Django 4.2 cached storage; secured sensitive content.</li>
+      <li>Leveraged Cursor (AI-assisted editor) to boost coding speed ~30% and improve React fluency; co-authored team-wide Cursor Rules for consistency.</li>
+    </ul>
+
+- company: Payvand Capital Management
+  position: Tech Lead & Co-Founder
+  duration: Apr 2023 - Jan 2025
+  location: Remote, Canada
+  summary: |
+    <ul class="resume-item-list">
+      <li>Led a team of 5-8 engineers building real-estate platforms: Propision (price evaluation; integrated with Divar) and Tokenision (tokenization).</li>
+      <li>Introduced CI/CD and a test strategy with GitLab CI and TDD, cutting cycle time by 25% and reducing production defects by 20%.</li>
+      <li>Rolled out GitLab and Jira for workflows; defined lightweight processes for planning, QA, and release.</li>
+      <li>Released a scalable web app serving 1M+ users, handling 20 concurrent price evaluation requests under 1s; owned architecture and deployment.</li>
+      <li>Prepared and presented technical architecture documents for accelerator pitches (TechnoTejarat, DaneshBonyan), enabling final-stage investment consideration and DaneshBonyan approval with loan/support eligibility.</li>
+      <li>Interviewed and onboarded DevOps hire, ensuring smooth knowledge transfer before transition.</li>
+    </ul>
+
+- company: Sangyab
+  position: Software Engineer & Project Manager
+  duration: Sep 2021 - Mar 2023
+  location: Isfahan, Iran (Hybrid/Remote)
+  summary: |
+    <ul class="resume-item-list">
+      <li>Built image search delivering sub-1s query times over a 1M+ image corpus; automated online delivery to reduce support load by 70% in first month.</li>
+      <li>Established staging/production CI/CD; improved page performance from 6s to <2s, driving 150% growth in Google impressions over two months.</li>
+      <li>Managed delivery for two products: Sangyab and Parsimages, spanning backend, DevOps, technical scoping, and product planning with founders/POs.</li>
+    </ul>
 
 - company: Novin Pardazan Arax
-  position: Software Engineer
-  duration: Mar 2020 &mdash; Aug 2021
+  position: Software Engineer & Co-Founder
+  duration: Mar 2020 - Aug 2021
+  location: Isfahan, Iran
   summary: |
-    Co-founded Arax company to create bespoke web applications; launched 3 websites
-    using Django and React/Next.js in 6 months.
-    <ul class="resume-item-list"><li>
-    Delivered CI/CD pipelines for regression testing, resulting in a reduction of production bugs by up to 40%
-    </li><li>
-    Reduced sign-up drop-offs by 25% by developing an SMS plugin to add 2FA
-    </li><li>
-    Liaised with C-level leaders across multiple organizations
-    </li><li>
-    Django, WordPress, CI/CD (GitHub Actions), NGINX, Scrum
-    </li></ul>
+    <ul class="resume-item-list">
+      <li>Launched 3 bespoke web apps using Django and React/Next.js in 6 months; owned deployments and production ops on Linux.</li>
+      <li>Implemented CI/CD with regression tests, reducing production issues by up to 40%; added 2FA via SMS plugin, cutting sign-up drop-offs 25%.</li>
+      <li>Worked directly with C-level stakeholders on contracts and product proposals.</li>
+      <li>Mentored and guided interns (mainly frontend), coordinating learning plans and project contributions with senior staff.</li>
+    </ul>

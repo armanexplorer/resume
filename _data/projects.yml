@@ -1,16 +1,25 @@
+
 # Projects
-# uncomment the urls if you wish to display them, and add your own URL
+- project: Propision
+  role: Tech Lead & Co-Founder
+  duration: Apr 2023 -- Jan 2025
+  url: https://propision.com
+  description: Real-estate price evaluation platform integrated with Divar; scalable web app serving 1M+ users.
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+- project: Tokenision
+  role: Tech Lead & Co-Founder
+  duration: Apr 2023 -- Jan 2025
+  url: https://tokenision.com
+  description: Real-estate tokenization platform; led architecture and deployment.
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+- project: Sangyab
+  role: Software Engineer & Project Manager
+  duration: Sep 2021 -- Mar 2023
+  url: https://www.sangyab.com/
+  description: Built image search and automated delivery for leading stone marketplace; managed backend, DevOps, and product planning.
+
+- project: Parsimages
+  role: Software Engineer & Project Manager
+  duration: Sep 2021 -- Mar 2023
+  url: https://parsimages.com/
+  description: Managed delivery and technical scoping for large image library web app.

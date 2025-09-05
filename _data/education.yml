@@ -1,12 +1,19 @@
+
 # Degree
-- degree: Master of Software Engineering
+- degree: M.Sc., Computer Engineering (Software)
   uni: Sharif University of Technology
-  year: Expected March 2024
+  year: Defended Feb 2025
   awards:
     - award: "GPA: 4/4, Dean's List"
+  coursework:
+    - Software Testing
+    - Architecture
+    - Methodologies
+    - Patterns
+    - Enterprise Architecture
 
-- degree: Bachelor of Computer Engineering
+- degree: B.Sc., Computer Engineering (Software)
   uni: University of Isfahan
-  year: Aug 2021
+  year: Sep 2017 -- Aug 2021
   awards:
-    - award: "GPA: 3.98/4, Ranked 1st"
+    - award: "Rank 1; GPA: 18.81/20, ≈ 3.98/4"
