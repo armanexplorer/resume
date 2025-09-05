@@ -1,22 +1,33 @@
 # Skills
-- skill: Python
-- skill: Django
-- skill: JavaScript/TypeScript
-- skill: React/Next.js
-- skill: REST APIs
-- skill: PostgreSQL
-- skill: MySQL
-- skill: Redis
-- skill: RabbitMQ
-- skill: Celery
-- skill: Docker
-- skill: Kubernetes
-- skill: NGINX
-- skill: Linux
-- skill: Ansible
-- skill: Grafana
-- skill: Microservices
-- skill: CI/CD (GitHub Actions, GitLab CI)
-- skill: TDD
+- category: Languages/Frameworks
+  skills:
+    - Python
+    - Django
+    - Celery
+    - REST APIs
+    - JavaScript/TypeScript
+    - React/Next.js
+
+- category: Data/Infra
+  skills:
+    - PostgreSQL
+    - Redis
+    - RabbitMQ
+    - Docker
+    - Kubernetes
+    - NGINX
+    - Linux
+    - Grafana
+    - MySQL
+    - Ansible
+
+- category: Practices
+  skills:
+    - CI/CD (GitHub Actions, GitLab CI)
+    - TDD
+    - Observability
+    - Microservices
+    - Scrum
+    - Incident Response
 - skill: Scrum
 - skill: Project and Engineering Management

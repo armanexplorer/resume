@@ -13,7 +13,7 @@
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar == 'true' %}
-        <img src="images/armanexplorer.png" alt="my avatar" class="avatar no-print" itemprop="image">
+        <img src="images/armanexplorer.jpg" alt="my avatar" class="avatar no-print" itemprop="image">
         {% endif %}
 
         <!-- Your name is defined in the _config.yml file -->
@@ -88,11 +88,14 @@
             <li class="column">{{ site.data.skills[ind2].skill }}</li>
           </ui>
         {% endfor %} -->
-        {% assign skill_length = site.data.skills | size %}
-        {% for skill in site.data.skills %}
-        <div class="resume-item" style="display: inline">
-          <b>{{ skill.skill }}</b>&nbsp;
-          <!-- <p class="resume-item-copy">{{ skill.description }}</p> -->
+        {% for category in site.data.skills %}
+        <div class="resume-item">
+          <h3 class="resume-item-title">{{ category.category }}</h3>
+          <p class="resume-item-copy">
+            {% for skill in category.skills %}
+            <b>{{ skill }}</b>{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+          </p>
         </div>
         {% endfor %}
 
