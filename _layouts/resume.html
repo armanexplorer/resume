@@ -48,6 +48,28 @@
 
       </header>
 
+      {% if site.resume_section_skills %}
+      <!-- begin Skills -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>SKILLS</h2>
+        </header>
+        {% for category in site.data.skills %}
+        <div class="resume-item">
+          <h3 class="resume-item-title">{{ category.category }}</h3>
+          <p class="resume-item-copy">
+            {% for skill in category.skills %}
+            <b>{{ skill }}</b>{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+          </p>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Skills -->
+      {% endif %}
+
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
       <section class="content-section">
@@ -66,41 +88,6 @@
 
       </section>
       <!-- end Experience -->
-      {% endif %}
-
-      {% if site.resume_section_skills %}
-      <!-- begin Skills -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>SKILLS</h2>
-        </header>
-        <!-- {% assign skill_length = site.data.skills | size %}
-        {% assign rows_num = skill_length | divided_by: 3 %}
-        {% assign end_index = rows_num | minus: 1 %}
-        {% for i in (0..end_index) %}
-          {% assign ind0 = i | times: 3 %}
-          {% assign ind1 = ind0 | plus: 1 %}
-          {% assign ind2 = ind0 | plus: 2 %}
-          <ui class="container">
-            <li class="column">{{ site.data.skills[ind0].skill }}</li>
-            <li class="column">{{ site.data.skills[ind1].skill }}</li>
-            <li class="column">{{ site.data.skills[ind2].skill }}</li>
-          </ui>
-        {% endfor %} -->
-        {% for category in site.data.skills %}
-        <div class="resume-item">
-          <h3 class="resume-item-title">{{ category.category }}</h3>
-          <p class="resume-item-copy">
-            {% for skill in category.skills %}
-            <b>{{ skill }}</b>{% unless forloop.last %}, {% endunless %}
-            {% endfor %}
-          </p>
-        </div>
-        {% endfor %}
-
-      </section>
-      <!-- end Skills -->
       {% endif %}
 
       {% if site.resume_section_education %}
