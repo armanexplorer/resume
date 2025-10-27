@@ -23,18 +23,18 @@ resume_name: "Arman Mazloumzadeh"
 resume_title: "Senior Software Engineer"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email: "armanexplorer@gmai.com"
+resume_contact_email: "armanexplorer@gmail.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone: "+98 910-510-7835"
 resume_contact_address: "Tehran, Iran"
 
 resume_header_contact_info: |
-  Tehran, Iran • armanexplorer@gmai.com • linkedin.com/in/armanexplorer<br/>
+  armanexplorer@gmail.com • linkedin.com/in/armanexplorer • github.com/armanexplorer<br/>
 display_header_contact_info: "true"
 resume_header_intro: |
   <p>
-    Software Engineer dedicated to backend with 6 years building web platforms and infrastructure across Python/Django, DevOps, and product delivery. Track record of leading small teams, reducing cycle time and defects with CI/CD and tests, and shipping customer-facing features end-to-end. Experienced collaborating across distributed teams; open to relocation.
+    Python Backend Engineer with 6+ years building secure, scalable APIs and data services in production (Django, PostgreSQL, MongoDB, Redis). Strong focus on API standardization (OpenAPI/Swagger), OAuth and OAuth2 integrations, CI/CD, and reliable releases. Comfort across cloud infrastructure (AWS/GCP), containers, observability, and performance tuning. Hands-on with event queues and search. Open to relocation to the UAE.
   </p>
 
 # use "yes" to display the email contact button,
@@ -47,7 +47,7 @@ resume_looking_for_work: "yes"
 # comment out to hide
 resume_section_experience: true
 resume_section_education: true
-resume_section_projects: true
+# resume_section_projects: true
 resume_section_skills: true
 resume_section_links: false
 resume_section_opensources: true

@@ -1,53 +1,59 @@
 
 # Jobs
 - company: Partnerz
-  position: Senior Backend Engineer (Shopify apps)
+  position: Senior Software Engineer (Shopify Apps)
   duration: Dec 2024 - Present
   location: Remote, UAE
   summary: |
     <ul class="resume-item-list">
-      <li>Shipped bundling features including Fixed Bundle and Mystery Box; adopted by ~10% of users and generating $1000+ MRR per month.</li>
-      <li>Improved onboarding flow and core app surfaces; made Plans Selection responsive, increasing reliability and UX consistency.</li>
-      <li>Reduced CI test runtime from 8 to 6 minutes via optimizing test tools; shortened developer feedback loops.</li>
-      <li>Operated as a full-stack contributor across backend and frontend, accelerating feature delivery more than 3 times.</li>
-      <li>Investigated and resolved merchant issues with Google Logs and Sentry, improving support turnaround.</li>
-      <li>Migrated app storage to Google Cloud Storage, configuring bucket permissions and upgrading to Django 4.2 cached storage; secured sensitive content.</li>
-      <li>Leveraged Cursor (AI-assisted editor) to boost coding speed ~30% and improve React fluency; co-authored team-wide Cursor Rules for consistency.</li>
+      <li>Delivered Fixed Bundle and Mystery Box end to end; reached ~10% adoption and added ~$1,000 MRR/mo.</li>
+      <li>Cut Pytest runtime 8→6 minutes via CI/CD optimization; reduced CI minutes/PR by ~20% and saved ~8 hours of engineer wait time/month.</li>
+      <li>Engineered pricing & onboarding pages; clarified plans and increased conversion by 10%.</li>
+      <li>Implemented Fixed Bundle widget adaptations for Dawn, Debut, and other themes; improved UX and reduced support requests by ~45% in the month following launch.</li>
+      <li>Standardized AI-assisted coding with Cursor to reduce editor/env drift and improve review consistency; increased feature delivery speed 3×.</li>
+      <li>Designed complex SQL queries in Metabase to enable data-driven decisions.</li>
+      <li><strong>Stack:</strong> Python, Django, TypeScript, React, RDBMS (PostgreSQL), Redis, RabbitMQ, Pub/Sub, Celery, REST, GraphQL, Docker, Kubernetes, GCP, GitLab CI, Pytest, Cypress, Sentry, Grafana, OAuth2, Shopify APIs.</li>
     </ul>
 
 - company: Payvand Capital Management
-  position: Tech Lead & Co-Founder
-  duration: Apr 2023 - Jan 2025
+  position: Technical Team Lead
+  duration: Apr 2023 - Nov 2024
   location: Remote, Canada
   summary: |
     <ul class="resume-item-list">
-      <li>Led a team of 5-8 engineers building real-estate platforms: Propision (price evaluation; integrated with Divar) and Tokenision (tokenization).</li>
-      <li>Introduced CI/CD and a test strategy with GitLab CI and TDD, cutting cycle time by 25% and reducing production defects by 20%.</li>
-      <li>Rolled out GitLab and Jira for workflows; defined lightweight processes for planning, QA, and release.</li>
-      <li>Released a scalable web app serving 1M+ users, handling 20 concurrent price evaluation requests under 1s; owned architecture and deployment.</li>
-      <li>Prepared and presented technical architecture documents for accelerator pitches (TechnoTejarat, DaneshBonyan), enabling final-stage investment consideration and DaneshBonyan approval with loan/support eligibility.</li>
-      <li>Interviewed and onboarded DevOps hire, ensuring smooth knowledge transfer before transition.</li>
+      <li>Led 8 engineers on Propision (property valuation) and Tokenision (tokenization); owned API architecture and review cadence.</li>
+      <li>Implemented OAuth2 integration with Divar; reliably handled 30+ req/min with p95 <3s for price evaluations.</li>
+      <li>Established CI/CD with containerized auto-deploys and rollbacks; enabled daily releases and faster recovery.</li>
+      <li>Served as an active backend MR reviewer, averaging 5+ reviews/week; enforced checklist-based standards to keep cycle time low.</li>
+      <li>Integrated OpenAI APIs to automatically evaluate Exam responses; users received results in <5s.</li>
+      <li>Implemented Elasticsearch indices/analyzers; improved relevance and cut p95 search latency by 2×.</li>
+      <li>Revised website page indexing; increased indexed pages by 10× and improved organic visibility.</li>
+      <li>Reduced deploy time 15→8 minutes by parallelizing builds and introducing infrastructure-as-code practices.</li>
+      <li>Standardized API documentation with OpenAPI/Swagger; raised coverage to ~85% and reduced partner integration time.</li>
+      <li><strong>Stack:</strong> Python, Django, Celery, RDBMS (PostgreSQL), Redis, RabbitMQ, Elasticsearch, Gunicorn, Docker, NGINX, GitLab CI, OpenAPI, Sentry, Grafana, Linux.</li>
     </ul>
 
 - company: Sangyab
-  position: Software Engineer & Project Manager
+  position: Project Manager Team Lead
   duration: Sep 2021 - Mar 2023
   location: Isfahan, Iran (Hybrid/Remote)
   summary: |
     <ul class="resume-item-list">
-      <li>Built image search delivering sub-1s query times over a 1M+ image corpus; automated online delivery to reduce support load by 70% in first month.</li>
-      <li>Established staging/production CI/CD; improved page performance from 6s to <2s, driving 150% growth in Google impressions over two months.</li>
-      <li>Managed delivery for two products: Sangyab and Parsimages, spanning backend, DevOps, technical scoping, and product planning with founders/POs.</li>
+      <li>Built visual search over 1M+ images with p95 <3s using DB-level embeddings.</li>
+      <li>Managed race conditions with Redis locks; achieved multi-req/s while keeping the system reliable.</li>
+      <li>Introduced staging/production CI/CD with safe rollbacks; shortened feedback loop by ~40%.</li>
+      <li>Optimized SEO and web performance: page load 6→2s; Google impressions up ~150% in two weeks.</li>
+      <li><strong>Stack:</strong> Python, Django, RDBMS (PostgreSQL), Redis, Selenium, Gunicorn, Docker, NGINX, GitHub Actions, Linux.</li>
     </ul>
 
 - company: Novin Pardazan Arax
-  position: Software Engineer & Co-Founder
+  position: Software Engineer
   duration: Mar 2020 - Aug 2021
   location: Isfahan, Iran
   summary: |
     <ul class="resume-item-list">
-      <li>Launched 3 bespoke web apps using Django and React/Next.js in 6 months; owned deployments and production ops on Linux.</li>
-      <li>Implemented CI/CD with regression tests, reducing production issues by up to 40%; added 2FA via SMS plugin, cutting sign-up drop-offs 25%.</li>
-      <li>Worked directly with C-level stakeholders on contracts and product proposals.</li>
-      <li>Mentored and guided interns (mainly frontend), coordinating learning plans and project contributions with senior staff.</li>
+      <li>Designed a daily settlement system for a bespoke banking application using OAuth; handled ~1k transactions/day.</li>
+      <li>Automated deployment of Django, React, and Next.js projects; reduced SDLC by ~30%.</li>
+      <li>Introduced CI/CD and regression tests; reduced production bugs by ~25%.</li>
+      <li><strong>Stack:</strong> PHP, Python, Django, RDBMS (MySQL, PostgreSQL), Docker, NGINX, WordPress, Linux, GitHub Actions, OAuth.</li>
     </ul>

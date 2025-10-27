@@ -2,9 +2,10 @@
 # Degree
 - degree: M.Sc., Computer Engineering (Software)
   uni: Sharif University of Technology
-  year: Defended Feb 2025
+  year: Feb 2025
   awards:
-    - award: "GPA: 4/4, Dean's List"
+    - award: "GPA: 4.0/4.0"
+  # summary: "Thesis: Pipeline Inference Optimization. Reduced compute cost by ~25% via GPU partitioning experiments. Tools: Kubernetes, Docker, Ansible."
   coursework:
     - Software Testing
     - Architecture
@@ -14,6 +15,6 @@
 
 - degree: B.Sc., Computer Engineering (Software)
   uni: University of Isfahan
-  year: Sep 2017 -- Aug 2021
+  year: 2017--2021
   awards:
-    - award: "Rank 1; GPA: 18.81/20, ≈ 3.98/4"
+    - award: "Ranked 1st in faculty - GPA 3.98/4.0 (18.81/20)"

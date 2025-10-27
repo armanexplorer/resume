@@ -1,10 +1,7 @@
 # Volunteering
-- event: International ISC Conference on Information Security and Cryptology
+- event: 2021 ISC Conference
   year: 2021
-  contribution: Delivered infrastructure
-- event: Medical image analysis desktop app
-  year: 2021
-  contribution: Built for Isfahan University of Medical Sciences
-- event: University of Isfahan graduation website
+  contribution: Supported infrastructure delivery (Django, React, MongoDB)
+- event: Graduation workflow portal
   year: 2018
-  contribution: Re-engineered website
+  contribution: Built early web systems for master's students (WordPress, PHP)

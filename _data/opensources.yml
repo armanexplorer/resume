@@ -3,22 +3,10 @@
   role: Contributor
   year: 2023
   url: https://github.com/matthewwithanm/django-imagekit
-  summary: Fixed storage Windows-style paths.
+  summary: Contributed fixes and improvements.
 
-- organization: milvus-io
+- organization: milvus-io/bootcamp
   role: Contributor
   year: 2023
   url: https://github.com/milvus-io/bootcamp
-  summary: Fixed collection-loading bug in tutorials.
-
-- organization: Calendar-for-gnome
-  role: Contributor
-  year: 2022
-  url: https://github.com/omid/Persian-Calendar-for-Gnome-Shell
-  summary: Clarified date formatter documentation.
-
-- organization: django-tgbot
-  role: Contributor
-  year: 2021
-  url: https://github.com/Ali-Toosi/django-tgbot
-  summary: Added flexible return-handling in bot setup.
+  summary: Contributed fixes and improvements.

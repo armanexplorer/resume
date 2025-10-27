@@ -1,33 +1,51 @@
 # Skills
-- category: Languages/Frameworks
+- category: Backend
   skills:
     - Python
     - Django
     - Celery
-    - REST APIs
-    - JavaScript/TypeScript
-    - React/Next.js
+    - RabbitMQ
+    - Redis
+    - REST
+    - GraphQL
+    - OAuth/OAuth2
+    - Gunicorn
 
-- category: Data/Infra
+- category: Frontend
+  skills:
+    - TypeScript
+    - React
+
+- category: Databases
   skills:
     - PostgreSQL
-    - Redis
-    - RabbitMQ
+    - MySQL
+    - MongoDB
+    - Elasticsearch
+
+- category: Cloud/DevOps
+  skills:
     - Docker
     - Kubernetes
     - NGINX
+    - AWS
+    - GCP
     - Linux
+    - GitLab CI
+    - IaC (Terraform, Ansible)
+
+- category: Quality/Observability
+  skills:
+    - Pytest
+    - Cypress
+    - Sentry
     - Grafana
-    - MySQL
-    - Ansible
+    - OpenAPI/Swagger
 
 - category: Practices
   skills:
-    - CI/CD (GitHub Actions, GitLab CI)
-    - TDD
-    - Observability
-    - Microservices
-    - Scrum
-    - Incident Response
-- skill: Scrum
-- skill: Project and Engineering Management
+    - API design & standardization
+    - performance tuning
+    - CI/CD pipelines
+    - documentation
+    - secure-by-default
