@@ -42,10 +42,15 @@
     - Grafana
     - OpenAPI/Swagger
 
+- category: AI Delivery
+  skills:
+    - Claude Code
+    - Cursor
+    - AI-assisted product refinement, implementation, code review, QA
+
 - category: Practices
   skills:
+    - Microservices
     - API design & standardization
     - performance tuning
     - CI/CD pipelines
-    - documentation
-    - secure-by-default

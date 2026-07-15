@@ -34,7 +34,7 @@ resume_header_contact_info: |
 display_header_contact_info: "true"
 resume_header_intro: |
   <p>
-    Python Backend Engineer with 6+ years building secure, scalable APIs and data services in production (Django, PostgreSQL, MongoDB, Redis). Strong focus on API standardization (OpenAPI/Swagger), OAuth and OAuth2 integrations, CI/CD, and reliable releases. Comfort across cloud infrastructure (AWS/GCP), containers, observability, and performance tuning. Hands-on with event queues and search. Open to relocation to the UAE.
+    Senior Python Backend Engineer with 6+ years of experience architecting scalable, production-ready APIs and AI-assisted workflows. Expert in microservices, async processing, and cloud-native deployments across AWS and GCP. Proven track record owning features end-to-end--from design to rollout--using tools like Claude Code and Cursor to accelerate delivery without compromising quality.
   </p>
 
 # use "yes" to display the email contact button,

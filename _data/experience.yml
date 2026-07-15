@@ -1,4 +1,3 @@
-
 # Jobs
 - company: Partnerz
   position: Senior Software Engineer (Shopify Apps)
@@ -6,31 +5,32 @@
   location: Remote, UAE
   summary: |
     <ul class="resume-item-list">
-      <li>Delivered Fixed Bundle and Mystery Box end to end; reached ~10% adoption and added ~$1,000 MRR/mo.</li>
-      <li>Cut Pytest runtime 8→6 minutes via CI/CD optimization; reduced CI minutes/PR by ~20% and saved ~8 hours of engineer wait time/month.</li>
-      <li>Engineered pricing & onboarding pages; clarified plans and increased conversion by 10%.</li>
-      <li>Implemented Fixed Bundle widget adaptations for Dawn, Debut, and other themes; improved UX and reduced support requests by ~45% in the month following launch.</li>
-      <li>Standardized AI-assisted coding with Cursor to reduce editor/env drift and improve review consistency; increased feature delivery speed 3×.</li>
-      <li>Designed complex SQL queries in Metabase to enable data-driven decisions.</li>
-      <li><strong>Stack:</strong> Python, Django, TypeScript, React, RDBMS (PostgreSQL), Redis, RabbitMQ, Pub/Sub, Celery, REST, GraphQL, Docker, Kubernetes, GCP, GitLab CI, Pytest, Cypress, Sentry, Grafana, OAuth2, Shopify APIs.</li>
+      <li>Spearheaded end-to-end development of Subscription Box features, adding $5,000+ to MRR.</li>
+      <li>Optimized CI/CD pipelines to reduce Pytest runtime by 25%, saving the engineering team 8 hours monthly.</li>
+      <li>Took ownership of merge request reviews, saving Engineering Management 16 hours per month.</li>
+      <li>Developed targeted pricing and onboarding flows, driving a 10% increase in conversion rates in one month.</li>
+      <li>Built theme-adaptive UI widgets, successfully decreasing support tickets by 45%.</li>
+      <li>Established Claude Code and Cursor as a primary development workflow spanning product refinement, implementation, tests, and QA.</li>
+      <li>Designed AI-assisted coding standards and agentic skills that tripled feature delivery speed while preserving review quality.</li>
+      <li><strong>Stack:</strong> Python, Django, TypeScript, React, PostgreSQL, Redis, RabbitMQ, Pub/Sub, Celery, REST, GraphQL, Docker, Kubernetes, GCP, GitLab CI, Pytest, Cypress, Sentry, Grafana, OAuth2, Shopify APIs.</li>
     </ul>
 
-- company: Payvand Capital Management
+- company: Payvand Business Network Inc.
   position: Technical Team Lead
   duration: Apr 2023 - Nov 2024
   location: Remote, Canada
   summary: |
     <ul class="resume-item-list">
-      <li>Led 8 engineers on Propision (property valuation) and Tokenision (tokenization); owned API architecture and review cadence.</li>
-      <li>Implemented OAuth2 integration with Divar; reliably handled 30+ req/min with p95 <3s for price evaluations.</li>
-      <li>Established CI/CD with containerized auto-deploys and rollbacks; enabled daily releases and faster recovery.</li>
-      <li>Served as an active backend MR reviewer, averaging 5+ reviews/week; enforced checklist-based standards to keep cycle time low.</li>
-      <li>Integrated OpenAI APIs to automatically evaluate Exam responses; users received results in <5s.</li>
-      <li>Implemented Elasticsearch indices/analyzers; improved relevance and cut p95 search latency by 2×.</li>
-      <li>Revised website page indexing; increased indexed pages by 10× and improved organic visibility.</li>
-      <li>Reduced deploy time 15→8 minutes by parallelizing builds and introducing infrastructure-as-code practices.</li>
-      <li>Standardized API documentation with OpenAPI/Swagger; raised coverage to ~85% and reduced partner integration time.</li>
-      <li><strong>Stack:</strong> Python, Django, Celery, RDBMS (PostgreSQL), Redis, RabbitMQ, Elasticsearch, Gunicorn, Docker, NGINX, GitLab CI, OpenAPI, Sentry, Grafana, Linux.</li>
+      <li>Managed an 8-engineer team building property valuation platforms, taking ownership of the microservices architecture.</li>
+      <li>Integrated OAuth2 with major partners, processing 30+ requests/minute with sub-3-second p95 latency.</li>
+      <li>Introduced containerized CI/CD and IaC, slashing deployment times by nearly 50% and enabling daily releases.</li>
+      <li>Acted as primary backend code reviewer (5+ MRs/week), enforcing strict standards to maintain high quality.</li>
+      <li>Developed innovative features for the LegalKite RegTech platform, boosting user conversion by 25%.</li>
+      <li>Engineered LLM prompts for a legal exam evaluator, delivering high-precision automated grading in seconds.</li>
+      <li>Optimized Elasticsearch indices and test infrastructure, halving p95 search latency.</li>
+      <li>Revamped SEO indexing logic, increasing indexed web pages tenfold.</li>
+      <li>Standardized API documentation using OpenAPI/Swagger, boosting cross-functional team velocity by 30%.</li>
+      <li><strong>Stack:</strong> Python, Django, Celery, PostgreSQL, Redis, RabbitMQ, Elasticsearch, Microservices, Gunicorn, Docker, NGINX, GitLab CI, OpenAPI, Sentry, Grafana, Linux.</li>
     </ul>
 
 - company: Sangyab
@@ -39,11 +39,11 @@
   location: Isfahan, Iran (Hybrid/Remote)
   summary: |
     <ul class="resume-item-list">
-      <li>Built visual search over 1M+ images with p95 <3s using DB-level embeddings.</li>
-      <li>Managed race conditions with Redis locks; achieved multi-req/s while keeping the system reliable.</li>
-      <li>Introduced staging/production CI/CD with safe rollbacks; shortened feedback loop by ~40%.</li>
-      <li>Optimized SEO and web performance: page load 6→2s; Google impressions up ~150% in two weeks.</li>
-      <li><strong>Stack:</strong> Python, Django, RDBMS (PostgreSQL), Redis, Selenium, Gunicorn, Docker, NGINX, GitHub Actions, Linux.</li>
+      <li>Engineered a visual search engine across 1M+ images using embeddings, achieving sub-2-second p95 latency.</li>
+      <li>Implemented Redis distributed locks to manage high-concurrency requests and ensure data consistency.</li>
+      <li>Deployed staging and production CI/CD pipelines, accelerating the development lifecycle by 40%.</li>
+      <li>Enhanced technical SEO and page indexing, driving a 150% increase in Google impressions in two weeks.</li>
+      <li><strong>Stack:</strong> Python, Django, PostgreSQL, Redis, Selenium, Gunicorn, Docker, NGINX, GitHub Actions, Linux.</li>
     </ul>
 
 - company: Novin Pardazan Arax
@@ -52,8 +52,8 @@
   location: Isfahan, Iran
   summary: |
     <ul class="resume-item-list">
-      <li>Designed a daily settlement system for a bespoke banking application using OAuth; handled ~1k transactions/day.</li>
-      <li>Automated deployment of Django, React, and Next.js projects; reduced SDLC by ~30%.</li>
-      <li>Introduced CI/CD and regression tests; reduced production bugs by ~25%.</li>
-      <li><strong>Stack:</strong> PHP, Python, Django, RDBMS (MySQL, PostgreSQL), Docker, NGINX, WordPress, Linux, GitHub Actions, OAuth.</li>
+      <li>Architected a daily settlement system for a custom banking application handling 1,000+ daily transactions.</li>
+      <li>Automated integration and deployment workflows, cutting the SDLC timeframe by 30%.</li>
+      <li>Introduced comprehensive regression testing, reducing production defects by 25%.</li>
+      <li><strong>Stack:</strong> PHP, Python, Django, MySQL, PostgreSQL, Docker, NGINX, WordPress, Linux, GitHub Actions.</li>
     </ul>
